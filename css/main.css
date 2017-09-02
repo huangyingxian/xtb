@@ -1,0 +1,908 @@
+
+/*程序员：石恒安*/
+/*TIME:2016.08.20-2016.08.26*/
+/*项目名称：西途比页面设计*/
+@charset "utf-8";
+@charset "gb2312";
+
+/*————————————字体图标设置——————————————*/
+body {
+  font-family: "Helvetica Neue", 
+  				      Helvetica, 
+  				      Microsoft Yahei,
+        				Hiragino Sans GB,
+        				WenQuanYi Micro Hei,
+        				sans-serif;
+}
+
+@font-face {
+  font-family: "xitubi_fonts";
+  src:url("../lib/fonts/MiFie-Web-Font.eot") format('embedded-opentype'),
+      url("../lib/fonts/MiFie-Web-Font.svg") format('svg'),
+      url("../lib/fonts/MiFie-Web-Font.ttf") format('TrueType'),
+      url("../lib/fonts/MiFie-Web-Font.woff") format('woff');  
+}
+/*————————————字体图标——————————————*/
+/*========================top样式===========================*/
+#header .topbar {
+
+	height: 100px;
+  border-bottom: 1px solid #e42323;
+  /*margin-bottom: 10px;*/
+  line-height: 100px;
+  background-color: #1f2228;
+  /*background-color: #c0c0c0;*/
+}
+
+/*------------nav右侧顶栏设置-----------------------*/
+#header .topbar .container  .row .nav_right {
+
+}
+#header .topbar .container  .row .nav_right ul {
+  height: 100px;
+  border-bottom: 1px solid #e92323;
+  overflow: hidden;
+}
+#header .topbar .nav_right .nav-tabs li {
+    font-size: 20px;
+    margin-left: 15px;
+    left: 20%;
+
+}
+
+ #header .nav-tabs  li.active  a {
+    color: #f0f0f0;
+    background-color: transparent;
+    border:transparent;
+    cursor: auto;
+
+}
+ #header .nav-tabs  li  a {
+    color: #555;
+    margin-right: 2px;
+    line-height: 79px;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    background-color: transparent;
+}
+ #header .nav-tabs  li  a:hover{
+  color: #008aa1;
+ }
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #c0c0c0;
+}
+/*=====================top样式结束====================*/
+
+/*=====================banner横幅轮播==================*/
+#main_lunbo {
+  margin:0;
+  padding: 0;
+  border:0;
+  height: 500px;
+}
+#main_lunbo #lunbo {
+  margin:0;
+  padding: 0;
+  border:0;
+height: 500px;
+
+}
+#main_lunbo img {
+  height: 500px;
+  width: 100%;
+  border:0;
+}
+#main_lunbo #lunbo a {
+  height: 500px;
+  margin:0;
+  padding: 0;
+  border:0;
+
+}
+#main_lunbo .carousel-indicators .active {
+    width: 52px;
+    height: 6px;
+    margin: 0;
+    background-color: #f35600;
+}
+#main_lunbo .carousel-indicators li {
+    display: inline-block;
+    width: 50px;
+    height: 6px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 0px;
+}
+/*===================/banner横幅轮播结束=========================*/
+
+/*===================wecando模块================================*/
+#wecando {
+  
+}
+#wecando .container .row {
+  height: 500px;
+  width: 100%;
+}
+#wecando .container .row .photo{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 300px;
+
+}
+#wecando .container .row .photo img{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 300px;
+}
+#wecando .container .row .link {
+  float: left;
+  position: relative;
+  margin-top: 30px;
+} 
+#wecando .container .row .link ul {
+  
+}
+#wecando .container .row .link ul li {
+  display: inline-block;
+}
+#wecando .container .row .link ul li.active {
+  margin-left: 150px;
+}
+#wecando .container .row .link ul li.active a {
+  background-color: transparent;
+
+}
+
+#wecando .container .row .link ul li.active a:hover {
+  background-color: #f0f0f0;
+  
+}
+#wecando .container .row .link ul li a:hover i {
+ color: #3db04f; 
+}
+#wecando .container .row  .link ul li {
+  margin-right: 50px;
+}
+#wecando .container .row  ul li a i {
+    font-size: 60px;
+    color: #c0c0c0;
+}
+#wecando .container .row  ul li h3 {
+  margin: 5px;
+  padding: 0;
+}
+/*=====================/wecando模块结束========================*/
+/*========================服务宗旨模块=========================*/
+#fuwu .fuwu_body  {
+  background: url(../img/body.jpg) no-repeat;
+  width: 100%;
+  height: 1200px;
+  position: relative;
+}
+#fuwu .fuwu_body .container {
+ 
+
+}
+/*----------------.fuwu_tubiao-------------------*/
+#fuwu .fuwu_body .container .fuwu_tubiao {
+  /*float: left;*/
+  position: relative;
+  /*left: 20%;*/
+  margin-top: 50px;
+  /*margin-left: 50%;*/
+}
+#fuwu .fuwu_body .container .fuwu_tubiao .s  {
+  margin: 0;
+  padding: 0;
+  /*float: left;*/
+  position: relative;
+  /*left: 43%;*/
+}
+#fuwu .fuwu_body .container .fuwu_tubiao  .zongzhi {
+  margin: 0;
+  padding: 0;
+  /*float: left;*/
+  position: relative;
+ /* left: -8%;
+  top: 55%;*/
+
+}
+#fuwu .fuwu_body .container .fuwu_tubiao  .zongzhi p {
+  font-size: 30px;
+  color: #c0c0c0;
+  
+}
+#fuwu .fuwu_body .container .fuwu_tubiao .s span {
+  margin: 0;
+  padding: 0;
+  font-size: 150px;
+  color: #fff;
+
+}
+#fuwu .fuwu_body .container .fuwu_tubiao .zongzhi span {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  color: #fff;
+
+}
+
+#fuwu .fuwu_body .container .fuwu_tubiao .service {
+  /*float: left;*/
+  position: relative;
+ /* left: 10%;
+  top: 42%;*/
+}
+
+#fuwu .fuwu_body .container .fuwu_tubiao .service  i {
+  
+  font-size: 15px;
+   color: #fff;
+}
+
+#fuwu .fuwu_body .container .fuwu_tubiao  i:hover , span:hover, p:hover {
+  cursor: default;
+}
+
+
+#fuwu .fuwu_body .container .fuwu_tubiao .line01 {
+    float: left;
+    position: absolute;
+    top: 10%;
+    right: 42%;
+    width:40px;
+    height:10px;
+    border-bottom:2px solid #c0c0c0;
+    -webkit-transform: rotate(-45deg);/*Safari 4+,Google Chrome 1+  */
+
+    
+}
+#fuwu .fuwu_body .container .fuwu_tubiao .line02 {
+    float: left;
+  position: absolute;
+  bottom: 50%;
+  left: 40%;
+    width:40px;
+    height:10px;
+    border-bottom:2px solid #c0c0c0;
+    -webkit-transform: rotate(-45deg);/*Safari 4+,Google Chrome 1+  */
+
+    
+}
+/*-----------------.fuwu_tubiao结束-----------*/
+#fuwu .fuwu_body .container .fuwu_text {
+  /*float: left;
+  z-index: 1;*/
+  position: relative;
+  /*top: 45%;*/
+  background: rgba(171,180,110,.4);
+  border:10px solid #312c2a ;
+  
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+#fuwu .fuwu_body .container .fuwu_text p {
+  font-size: 20px;
+  color: #fff;
+  text-align: left;
+  text-indent:40px;
+  padding: 10px;
+}
+/*==========================/服务宗旨模块结束===============*/
+/*===========================案例展示模块===================*/
+
+#anli .container .anli_tubiao  {
+  float: left;
+  position: relative;
+  /*left: 23%;*/
+  height: 400px;
+  width: 100%;
+  /*margin-top: 50px;*/
+  /*background-color: #c0c0c0;*/
+  /*opacity:0.5;*/
+}
+/*-------------------anli图标--------------*/
+#anli .container .anli_tubiao .s  {
+  margin: 0;
+  padding: 0;
+  /*float: left;*/
+  position: relative;
+  /*left: 43%;*/
+}
+#anli .container .anli_tubiao  .zongzhi {
+  margin: 0;
+  padding: 0;
+ /* float: left;*/
+  position: relative;
+ /* left: -1%;
+  top: 55%;*/
+}
+#anli .container .anli_tubiao  .zongzhi p {
+  font-size: 20px;
+  color: #c0c0c0;
+}
+#anli .container .anli_tubiao .s span {
+  margin: 0;
+  padding: 0;
+  font-size: 150px;
+  color: #000;
+
+}
+#anli .container .anli_tubiao .zongzhi span {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  color: #000;
+
+}
+
+#anli .container .anli_tubiao .service {
+ /* float: left;
+  position: relative;
+  left: 36%;
+  top: 42%;*/
+}
+
+#anli .container .anli_tubiao .service  i {
+  font-size: 15px;
+   color: #000;
+}
+
+#anli .container .anli_tubiao  i:hover , span:hover, p:hover {
+  cursor: default;
+}
+
+
+#anli .container .anli_tubiao .line01 {
+    float: left;
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    width:40px;
+    height:10px;
+    border-bottom:2px solid #000;
+    -webkit-transform: rotate(-45deg);/*Safari 4+,Google Chrome 1+  */
+
+    
+}
+#anli .container .anli_tubiao .line02 {
+  float: left;
+  position: absolute;
+  bottom: 51%;
+  left: 40%;
+    width:40px;
+    height:10px;
+    border-bottom:2px solid #000;;
+    -webkit-transform: rotate(-45deg);/*Safari 4+,Google Chrome 1+  */
+
+    
+}
+/*-------------------anli图标结束--------------*/
+#anli .container .anli_show {
+  /*float: left;*/
+  position: relative;
+  width: 100%;
+  height: 650px;
+  /*background-color: blue;*/
+  margin-bottom:100px; 
+  /*overflow: hidden;*/
+  margin-left: 50px;
+}
+#anli .container .anli_show  div {
+  width: 340px;
+  height: 300px;
+  background-color: #C0c0c0;
+  margin: 10px;
+  padding: 0;
+}
+
+#anli .container .anli_show div img {
+  padding: 0;
+  margin: 0;
+ width: 340px;
+ height: 300px;
+
+}
+/*#anli .container .anli_show div:nth-of-type(2n){ 
+
+  
+  background-color: #a5cd38;
+
+}*/
+#anli .container .anli_show div.jiahao a {
+  float: left;
+  position: absolute;
+  top: 30%;
+  left: 38%;
+  /*background-color: #fff;*/
+  color: #FFF;
+}
+#anli .container .anli_show div.jiahao a:hover i {
+  color: #C0D0D0;
+}
+#anli .container .anli_show div a i {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+
+}
+#anli .container .anli_show .glyphicon-plus:before {
+    content: "\002b";
+    font-size: 100px;
+    /*color: #fff;*/
+     margin: 0;
+    padding: 0;
+}
+
+/*=====================/案例展示结束========================*/
+
+/*=====================news最新资讯模块=====================*/
+#news .news_body {
+  /*width: 100%;
+  height: 800px;*/
+  background-image:url("../img/body02.bmp");
+  background-repeat:no-repeat;
+  opacity: 0.8;
+  /*margin-bottom: 50px;*/
+}
+
+/*-------------news图标--------------------------*/
+#news .container .news_tubiao {
+ /* float: left;*/
+  position: relative;
+/*  width: 1170px;
+  height: 350px;*/
+}
+#news .container .news_tubiao  .s  {
+  margin: 0;
+  padding: 0;
+  /*float: left;*/
+  position: relative;
+  /*left: 40%;*/
+}
+#news .container .news_tubiao   .zongzhi {
+  margin: 0;
+  padding: 0;
+  /*float: left;*/
+  position: relative;
+  /*left: 14%;
+  top: 55%;*/
+}
+#news .container .news_tubiao   .zongzhi p {
+  font-size: 20px;
+  color: #b0c0c0;
+}
+#news .container .news_tubiao  .s span {
+  margin: 0;
+  padding: 0;
+  font-size: 150px;
+  color: #fff;
+
+}
+#news .container .news_tubiao .zongzhi span {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  color: #fff;
+
+}
+
+#news .container .news_tubiao  .service {
+  /*float: left;*/
+  position: relative;
+ margin:0;
+ padding: 0;
+  /*left: 42%;
+  top: 46%;*/
+}
+
+#news .container .news_tubiao  .service em {
+  
+  font-size: 15px;
+   color: #fff;
+}
+
+#news.container .news_tubiao   em:hover , span:hover, p:hover {
+  cursor: default;
+}
+
+
+#news .container .news_tubiao  .line01 {
+    float: left;
+    position: absolute;
+    top: 5%;
+    right: 40%;
+    width:40px;
+    height:10px;
+    border-bottom:2px solid #c0c0c0;
+    -webkit-transform: rotate(-45deg);/*Safari 4+,Google Chrome 1+  */
+
+    
+}
+#news .container .news_tubiao .line02 {
+  float: left;
+  position: absolute;
+  bottom: 48%;
+  left: 40%;
+    width:40px;
+    height:10px;
+    border-bottom:2px solid #c0c0c0;;
+    -webkit-transform: rotate(-45deg);/*Safari 4+,Google Chrome 1+  */
+}
+/*---------------news图标结束---------------------------------*/
+
+#news .container .news_zx {
+  /*float: left;*/
+  position: relative;
+  width: 100%;
+  height: 400px;
+  /*background-color: #d0d0d0;*/
+
+}
+#news .container .news_zx .group {
+  height: 400px;
+ 
+}
+#news .container .news_zx .hang_01 ul {
+   margin: 0;
+  padding: 0;
+}
+#news .container .news_zx .hang_01 ul li.circle {
+
+    width: 120px;      
+    height: 120px;      
+    border: 5px solid #fff;     
+    border-radius: 50%;      
+    -moz-border-radius: 50%;      
+    -webkit-border-radius: 50%; 
+    margin-top: 25px;
+    margin-left: 15px;
+    overflow: hidden;
+}
+#news .container .news_zx .hang_01 ul li.circle span {
+
+  font-size: 40px;
+  text-align: center;
+  margin-left: 10px;
+  padding: 0;
+
+}
+
+#news .container .news_zx .hang_01 ul li.circle a {
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  color: #fff;
+
+}
+#news .container .news_zx .hang_01 ul li.circle a:hover {
+  cursor: hand;
+  color: red;
+}
+#news .container .news_zx .hang_01 ul li.circle  i {
+  font-size: 20px;
+  font-family: "宋体";
+  color: #fff;
+  /*background-color: transparent;*/
+  margin-left: 10px;
+  padding: 3px;
+  
+}
+/*行里右边文本部分*/
+
+#news .container .news_zx .hang_01 ul  li.text {
+  height: 180px;
+  width: 200px;
+  
+  padding: 20px  0px 20px 0px;
+
+}
+#news .container .news_zx .hang_01 ul li.text a{
+  font-size:20px; 
+  color: #f0f0f0;
+  text-decoration: none;
+
+}
+#news .container .news_zx .hang_01  ul li.text a:hover {
+  color: #c0c0c0;
+}
+#news .container .news_zx .hang_01 ul li.text p {
+  text-indent :30px;
+  color: #fff;
+  font-size:15px; 
+}
+
+/*-----底色设置-------------------------*/
+#news .container .news_zx  .hang_01  {
+  background-color: #f5ab39;
+}
+#news .container .news_zx .hang_01 ul li {
+   background-color: #f5ab39;
+}
+#news .container .news_zx .hang_01 ul li.text{
+  border-color: #f5ab39;
+}
+/*------------------------------------*/
+#news .container .news_zx .hang_02 {
+   background-color: #fa6474;
+}
+#news .container .news_zx .hang_02 ul li {
+   background-color: #fa6474;
+}
+#news .container .news_zx .hang_02 ul li.text{
+    border-color: #fa6474;
+}
+#news .container .news_zx .hang_02 ul li.circle {
+  background-color: #fa6474;
+}
+/*------------------------------------------*/
+#news .container .news_zx .hang_03 {
+   background-color: #68cb6f;
+}
+#news .container .news_zx .hang_03 ul li {
+   background-color: #68cb6f;
+}
+#news .container .news_zx .hang_03 ul li.text{
+  border-color: #68cb6f;
+}
+#news .container .news_zx .hang_03 ul li.circle {
+  background-color: #68cb6f;
+}
+/*----------------------------------------------*/
+#news .container .news_zx .hang_04 {
+   background-color: #4badcd;
+}
+#news .container .news_zx .hang_04 a {
+    text-decoration: none;
+}
+#news .container .news_zx .hang_04 i {
+  font-size: 100px;
+  line-height: 180px;
+}
+
+/*设置分行高度部分*/
+#news .container .news_zx  .hang_01, .hang_02,.hang_03  {
+  margin: 10px 0px;
+  height: 180px;
+} 
+
+
+/*---------------中间middle部分---------------*/
+#news .container .middle .middle_bgc img {
+  padding-top: 10px; 
+  width: 360px;
+}
+#news .container .middle .middle_text{
+  height:120px; 
+  background-color: #fff;
+}
+#news .container .middle .middle_text p.p1 {
+  padding-top: 10px;
+   margin-bottom: 0px;
+  font-size: 30px;
+  color: #000;
+   margin-left:15px; 
+}
+#news .container .middle .middle_text p.p2 {
+  font-size: 20px;
+   margin-bottom: 10px;
+      margin-left:15px; 
+}
+#news .container .middle .middle_text a {
+  font-size: 25px;
+  margin-left:15px; 
+  color: #c0c0c0;
+}
+
+/*-------------------------中间middle部分---------------*/
+/*=======================//news最新资讯模块结束=====================*/
+
+
+/*==========================友情合作模块============================*/
+#cooperation  {
+  /*background-color: #c0c0c0;*/
+    height: 600px;
+}
+#cooperation .container .cooperation_tubiao  {
+   margin-left:10px; 
+  
+}
+
+/*------------------图标部分------*/
+#cooperation .container .cooperation_tubiao {
+ /* float: left;*/
+  position: relative;
+  /*width: 100%px;
+  height: 350px;*/
+}
+#cooperation .container .cooperation_tubiao  .s  {
+  margin: 0;
+  padding: 0;
+  /*float: left;*/
+  position: relative;
+  /*left: 40%;*/
+}
+#cooperation .container .cooperation_tubiao   .zongzhi {
+  margin: 0;
+  padding: 0;
+ /* float: left;*/
+  position: relative;
+ /* left: 18%;
+  top: 55%;*/
+}
+#cooperation .container .cooperation_tubiao   .zongzhi p {
+  font-size: 20px;
+  color: #4badcd;
+}
+#cooperation .container .cooperation_tubiao  .s span {
+  margin: 0;
+  padding: 0;
+  font-size: 130px;
+  color: #000;
+
+}
+#cooperation .container .cooperation_tubiao .zongzhi span {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  color: #000;
+
+}
+
+#cooperation .container .cooperation_tubiao  .service {
+ /* float: left;*/
+  position: relative;
+ margin:0;
+ padding: 0;
+ /* left: 41%;
+  top: 42%;*/
+}
+
+#cooperation .container .cooperation_tubiao  .service em {
+  
+  font-size: 15px;
+   color: #000;
+}
+
+#cooperation.container .cooperation_tubiao   em:hover , span:hover, p:hover {
+  cursor: default;
+}
+
+
+#cooperation .container .cooperation_tubiao  .line01 {
+    float: left;
+    position: absolute;
+    top: 5%;
+    right: 43%;
+    width:40px;
+    height:10px;
+    border-bottom:2px solid #c0c0c0;
+    -webkit-transform: rotate(-45deg);/*Safari 4+,Google Chrome 1+  */
+  
+}
+#cooperation .container .cooperation_tubiao .line02 {
+    float: left;
+    position: absolute;
+    bottom: 50%;
+    left: 36%;
+    width:40px;
+    height:10px;
+    border-bottom:2px solid #c0c0c0;
+    -webkit-transform: rotate(-45deg);/*Safari 4+,Google Chrome 1+  */
+}
+/*--------------------------------图标部分结束-------------------*/
+#cooperation .container .cooperation_link {
+  /*float: left;*/
+  position: relative;
+}
+#cooperation .container .cooperation_link .list-group li {
+  margin: 12px;
+  border-style: hidden;
+
+}
+#cooperation .container .cooperation_link .list-group li img {
+  
+}
+
+#cooperation .container .cooperation_link .list-group li.setright {
+  margin: 12px 30px;
+}
+/*=====================友情合作模块结束=======================*/
+
+
+/*=====================footer脚注模块======================*/
+#footer {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  background-color: #1f2129;
+}
+/*---------------------图标部分-------------*/
+#footer .container .footer_tubiao {
+  position: relative;
+}
+#footer .container .footer_tubiao  .s  {
+  /*width: 100%;
+  height: 100px;*/
+    position: relative;
+    padding: 0;
+    margin:0;
+    /*float: left;*/
+}
+#footer .container .footer_tubiao  .s span {
+  
+  padding: 0;
+  font-size: 100px;
+  color: #000;
+  /*padding-bottom: 5px;*/
+}
+
+#footer.container .footer_tubiao   em:hover , span:hover, p:hover {
+  cursor: default;
+}
+
+
+#footer .container .footer_tubiao .line01 {
+    float: left;
+    position: absolute;
+    top: 5%;
+    right: 43%;
+    width:40px;
+    height:10px;
+    border-bottom:2px solid #c0c0c0;
+    -webkit-transform: rotate(-45deg);/*Safari 4+,Google Chrome 1+  */
+  
+}
+#footer .container .footer_tubiao .line02 {
+    float: left;
+    position: absolute;
+    bottom: 50%;
+    left: 36%;
+    width:40px;
+    height:10px;
+    border-bottom:2px solid #c0c0c0;
+    -webkit-transform: rotate(-45deg);/*Safari 4+,Google Chrome 1+  */
+}
+/*---------------------图标部分-------------*/
+#footer .container .footer_jiao {
+
+}
+#footer .container .footer_jiao ul li {
+
+  margin-right: 15px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  background-color: #26292f;
+}
+#footer .container .footer_jiao ul li a {
+  color: #c0c0c0;
+}
+#footer .container .footer_jiao ul li a:hover {
+  color: #f0c0c0;
+}
+#footer .container .footer_jiao ul li i{
+  font-size: 100px;
+  padding: 0 100px;
+}
+
+/*=======================脚注模块结束======================*/
+/*==============bootstrap拓展部分*/
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
